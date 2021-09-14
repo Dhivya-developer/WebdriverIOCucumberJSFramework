@@ -1,7 +1,7 @@
 Feature: Automation practice website page
 
     @test
-    Scenario Outline: As a user, I register on the website
+    Scenario Outline: As a user, I register on the website and order a product for purchase
 
         Given I am on Automation practice website page <URL>
         And I signIn and create an account
