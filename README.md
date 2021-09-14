@@ -14,14 +14,19 @@ Features This project developed with below features
 • Page object model pattern
 
 **Pre-requisites:**
+
 Below are the pre-requisites
+
 • Node. js
+
 • NPM
+
 • Visual studio code
 
 Below are the steps to install the Dependencies in workspace terminal
 
 **Steps:**
+
 1.npm init- This command used to intialize the workspace as npm project. After initialization, package.json folder will get created in workspace directory
 
 2. npm  install @wdio/cli - This command installs the webdriverIO package separately in workspace with the file created with name package-lock.json
@@ -31,14 +36,17 @@ Below are the steps to install the Dependencies in workspace terminal
 4.npmx wdio run wdio.conf.js- This command execute the test in the created framework
 
 **Reporting:**
+
 To generate allure report below steps to be entered in workspace terminal.
 
 1. npm install @wdio/allure-reporter --save-dev 
 
-2.Run test with below command
-   npmx wdio run wdio.conf.js
+2. Run test with below command
+
+      npmx wdio run wdio.conf.js
 
 3.Open the allure report with below command
-   npm run open-allure
+
+      npm run open-allure
 
 
