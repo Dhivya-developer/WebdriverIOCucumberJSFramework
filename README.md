@@ -1,5 +1,5 @@
 # WebdriverIOCucumberJSFramework
-This repository contains a demonstration project for Automation practice. In this project, the user registers in application with personal information and the registered user login to Automation practice application. Then user add a product to a card and checkout the product until payment.
+This repository contains a demonstration project for Automation project
 
 Features This project developed with below features
 
